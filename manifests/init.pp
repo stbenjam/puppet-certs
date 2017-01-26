@@ -12,7 +12,7 @@
 #
 # $cname::                The alternative names of the host the generated certificates
 #                         should be for
-#                         type:array
+#                         type:Optional[Array]
 #
 # $server_ca_cert::       Path to the CA that issued the ssl certificates for https
 #                         if not specified, the default CA will be used
